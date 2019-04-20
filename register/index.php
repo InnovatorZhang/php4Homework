@@ -22,8 +22,6 @@ $postData = file_get_contents('php://input');
 
 //将json数据解析成数组
 $arrayData = json_decode($postData,true);
-
-echo $arrayData['content']['username'].$arrayData['content']['password'];
 //拿到用户名和密码
 if($arrayData['type'] == 0){
     $username = $arrayData['content']['username'];
@@ -31,7 +29,7 @@ if($arrayData['type'] == 0){
 }else{
     other_encode('type属性错误');
 }
-echo $username+$password;
+
 //用户名和密码不为空的话进入下一步
 if($username && $password){
     $sql = $pdo->prepare("SELECT * FROM user WHERE username = ?");

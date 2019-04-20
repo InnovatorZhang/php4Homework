@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb033ec-9aca-4f29-be39-29d3045a73a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/jsonWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/jsonWrapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysqlConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/mysqlConnect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/register/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="283">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#6#82#0#PHP" />
               </folding>
@@ -107,11 +105,6 @@
               <item name="php4Homework" type="462c0819:PsiDirectoryNode" />
               <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="php4Homework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php4Homework" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -157,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555753033762</updated>
-      <workItem from="1555753035106" duration="6394000" />
+      <workItem from="1555753035106" duration="6676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6394000" />
+    <option name="totallyTimeSpent" value="6676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="42" width="1400" height="776" extended-state="0" />
@@ -271,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="283">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#6#82#0#PHP" />
           </folding>
