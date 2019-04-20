@@ -2,7 +2,6 @@
 
 function success_encode($data = null, $info = "success")
 {
-    $content["status"] = 200;
     $content["info"] = $info;
     if ($data) {
         $content['data'] = $data;
@@ -15,9 +14,8 @@ function success_encode($data = null, $info = "success")
     exit(0);
 }
 
-function other_encode($status, $info, $data = null)
+function other_encode($info, $data = null)
 {
-    $content["status"] = $status;
     $content["info"] = $info;
     if ($data) {
         $content['data'] = $data;
