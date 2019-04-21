@@ -41,6 +41,7 @@ create table searchanswer(
 id int unsigned primary key auto_increment,
 title text not null,
 author text,
+avatar text,
 article mediumtext
 )default charset=utf8mb4;
 
@@ -49,5 +50,6 @@ create table essenceanswer(
 id int unsigned primary key auto_increment,
 title text not null,
 author text,
+avatar text,
 article mediumtext
  )default charset=utf8mb4;
