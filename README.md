@@ -223,3 +223,48 @@
     }
 }
 ```
+
+### 7.签到接口
+>http://127.0.0.1/php4Homework/punchsign/index.php
+>>请求格式
+```json
+{
+	"type":0,
+	"content":{
+		"token":"50427f108b8495a70d7a4d7fbc58c797bd523dfb"
+	}
+}
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": 4
+    }
+}
+```
+### 8.获取签到次数接口
+>http://127.0.0.1/php4Homework/punchsign/index.php
+>>请求格式
+```json
+{
+	"type":1,
+	"content":{
+		"token":"50427f108b8495a70d7a4d7fbc58c797bd523dfb"
+	}
+}
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": 10
+    }
+}
+```
