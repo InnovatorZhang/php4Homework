@@ -291,3 +291,128 @@
     }
 }
 ```
+
+### 10.添加帖子
+>http://127.0.0.1/php4Homework/forum/getInformation.php
+>>请求格式
+```json
+ {
+ "type":1,
+ "content":{
+ "token":"bf17a92421adae96b248b186a9396ec4820f25a4",
+ "title":"噢噢噢噢",
+ "post":"vvvvvv股份回购。"
+ }
+ }
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": "发布帖子成功！"
+    }
+}
+```
+
+### 11.添加回复
+>http://127.0.0.1/php4Homework/forum/getInformation.php
+>>请求格式
+```json
+ {
+ "type":2,
+ "content":{
+ "token":"52b439c4a8761c7524148b7699e71b128cdf2ba1",
+ "postId":1,
+ "content":"我来看看."
+ }
+ }
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": "回复成功！"
+    }
+}
+```
+
+### 12.获取帖子
+>http://127.0.0.1/php4Homework/forum/getInformation.php
+>>请求格式
+```json
+ {
+ "type":3,
+ "content":{
+ "token":"52b439c4a8761c7524148b7699e71b128cdf2ba1",
+ "offset":0,
+ "limit":3
+ }
+ }
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": [
+            {
+                "id": 1,
+                "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKk8LY4o4mQR9NYdYnu5079fDoeHvicVib7NIzlicCRyTPZY0lxk8HlzRP0ssV4rcjpiaEarBtSdWv5Uw/132",
+                "username": "坤坤",
+                "userid": 1,
+                "title": "考研哪一个学校好?",
+                "post": "请大家提一提意见和建议。"
+            },
+            {
+                "id": 2,
+                "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKk8LY4o4mQR9NYdYnu5079fDoeHvicVib7NIzlicCRyTPZY0lxk8HlzRP0ssV4rcjpiaEarBtSdWv5Uw/132",
+                "username": "坤坤",
+                "userid": 1,
+                "title": "帖子一号",
+                "post": "内容一号。"
+            }
+        ]
+    }
+}
+```
+
+### 13.获取回复
+>http://127.0.0.1/php4Homework/forum/getInformation.php
+>>请求格式
+```json
+ {
+ "type":4,
+ "content":{
+ "token":"52b439c4a8761c7524148b7699e71b128cdf2ba1",
+ "postId":1
+ }
+ }
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": [
+            {
+                "id": 1,
+                "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKk8LY4o4mQR9NYdYnu5079fDoeHvicVib7NIzlicCRyTPZY0lxk8HlzRP0ssV4rcjpiaEarBtSdWv5Uw/132",
+                "username": "坤坤",
+                "userid": 1,
+                "content": "假装回复一下.",
+                "postid": 1
+            }
+        ]
+    }
+}
+```
