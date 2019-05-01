@@ -268,3 +268,26 @@
     }
 }
 ```
+### 9.修改头像地址
+>http://127.0.0.1/php4Homework/modify/avatar/index.php
+>>请求格式
+```json
+{
+	"type":0,
+	"content":{
+	    "avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKk8LY4o4mQR9NYdYnu5079fDoeHvicVib7NIzlicCRyTPZY0lxk8HlzRP0ssV4rcjpiaEarBtSdWv5Uw/132",
+		"token":"50427f108b8495a70d7a4d7fbc58c797bd523dfb"
+	}
+}
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKk8LY4o4mQR9NYdYnu5079fDoeHvicVib7NIzlicCRyTPZY0lxk8HlzRP0ssV4rcjpiaEarBtSdWv5Uw/132"
+    }
+}
+```

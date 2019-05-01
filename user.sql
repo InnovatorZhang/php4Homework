@@ -7,7 +7,7 @@ gender INT NOT NULL DEFAULT 1,
 punchsign INT NOT NULL DEFAULT 0,
 nickname VARCHAR(10) DEFAULT NULL,
 phonenumber VARCHAR(13) NOT NULL DEFAULT "10010",
-avatar VARCHAR(100) DEFAULT "http://127.0.0.1/php4Homework/avatar/default.png",
+avatar VARCHAR(9999) DEFAULT "http://127.0.0.1/php4Homework/avatar/default.png",
 token VARCHAR(64) DEFAULT NULL,
 birthday VARCHAR(20) DEFAULT NULL,
 school VARCHAR(20) DEFAULT NULL,
@@ -53,4 +53,20 @@ title text not null,
 author text,
 avatar text,
 article mediumtext
+ )default charset=utf8mb4;
+
+--存放所有帖子的表
+create table posts(
+id int unsigned primary key auto_increment,
+title text not null,
+userid int unsigned,
+post text
+ )default charset=utf8mb4;
+
+--存放所有回答的表
+create table replies(
+id int unsigned primary key auto_increment,
+content text not null,
+userid int unsigned,
+postid int unsigned
  )default charset=utf8mb4;
