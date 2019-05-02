@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb033ec-9aca-4f29-be39-29d3045a73a9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/getPosts.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/getInformation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/getReplies.php" beforeDir="false" afterPath="$PROJECT_DIR$/forum/control.php" afterDir="false" />
-    </list>
+    <list default="true" id="cfb033ec-9aca-4f29-be39-29d3045a73a9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-76">
+              <first_editor relative-caret-position="-190">
                 <caret line="384" column="3" lean-forward="true" selection-start-line="384" selection-start-column="3" selection-end-line="384" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -130,8 +125,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="107" />
-    <option name="y" value="60" />
+    <option name="x" value="42" />
+    <option name="y" value="27" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -217,16 +212,15 @@
       <workItem from="1556015310383" duration="598000" />
       <workItem from="1556067675873" duration="148000" />
       <workItem from="1556094588552" duration="4910000" />
-      <workItem from="1556689695008" duration="10037000" />
+      <workItem from="1556689695008" duration="10227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35888000" />
+    <option name="totallyTimeSpent" value="36078000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="48" width="1400" height="776" extended-state="0" />
-    <editor active="true" />
+    <frame x="34" y="22" width="1400" height="776" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18107302" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -496,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-76">
+          <first_editor relative-caret-position="-190">
             <caret line="384" column="3" lean-forward="true" selection-start-line="384" selection-start-column="3" selection-end-line="384" selection-end-column="3" />
           </first_editor>
           <second_editor />

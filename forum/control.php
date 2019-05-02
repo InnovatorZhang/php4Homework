@@ -64,7 +64,7 @@ function getPosts($pdo,$data){
  */
 function getReplies($pdo,$data){
     $postId = $data['postId'];
-    $sql = $pdo->prepare("select replies.id,user.avatar,user.username,userid,content,postid from replies right join user on user.id=replies.userid where postid=?");
+    $sql = $pdo->prepare("select replies.id,user.avatar,user.username,userid,content,postid from replies right join user on user.id=replies.userid where postid=? order by replies.id");
     $sql->execute(array($postId));
     if ($row = $sql->fetchAll(PDO::FETCH_NAMED)){
         success_encode($row);
