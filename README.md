@@ -454,3 +454,42 @@
     }
 }
 ```
+
+### 7.0.获取下载资源列表
+>http://127.0.0.1/php4Homework/download/index.php
+>>请求格式
+```json
+ {
+ "type":0,
+ "content":{
+ "token":"b9eafd0b3604b38c10af36c97dfd907f24126aee"
+ }
+ }
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": [
+            {
+                "id": 1,
+                "name": "20考研必备手册.pdf",
+                "downloadpath": "http://127.0.0.1/file/datafile/20考研必备手册.pdf"
+            },
+            {
+                "id": 2,
+                "name": "20考研高校报考指南.pdf",
+                "downloadpath": "http://127.0.0.1/file/datafile/20考研高校报考指南.pdf"
+            },
+            {
+                "id": 3,
+                "name": "高数满分指南.pdf",
+                "downloadpath": "http://127.0.0.1/file/datafile/高数满分指南.pdf"
+            }
+        ]
+    }
+}
+```

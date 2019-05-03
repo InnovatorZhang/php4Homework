@@ -79,3 +79,10 @@ author varchar(20),
 picture text,
 src text
  )default charset=utf8mb4;
+
+--存放考研资料下载路径的表
+create table download(
+id int unsigned primary key auto_increment,
+name varchar(20) not null,
+downloadpath text
+ )default charset=utf8mb4;
