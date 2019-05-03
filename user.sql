@@ -70,3 +70,12 @@ content text not null,
 userid int unsigned,
 postid int unsigned
  )default charset=utf8mb4;
+
+--存放音乐信息的表
+create table music(
+id int unsigned primary key auto_increment,
+name varchar(20) not null,
+author varchar(20),
+picture text,
+src text
+ )default charset=utf8mb4;

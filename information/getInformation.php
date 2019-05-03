@@ -71,6 +71,9 @@ switch ($type){
     case 4:
         getSchoolInformation($pdo,$data);
         break;
+    case 5:
+        getMusicList($pdo);
+        break;
     default:
         other_encode('type参数错误!');
 }

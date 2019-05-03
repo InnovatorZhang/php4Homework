@@ -5,7 +5,7 @@
 >>> json格式，请求方法为post，请求头中Content-Type:application/json
 
 
-### 1.注册接口
+### 1.0.注册接口
 >http://127.0.0.1/php4Homework/register/index.php
 >>请求格式
 ```json
@@ -29,7 +29,7 @@
 }
 ```
 
-### 2.登陆接口
+### 2.0.登陆接口
 
 >http://127.0.0.1/php4Homework/login/index.php
 >>请求格式
@@ -65,7 +65,7 @@
 }
 ```
 
-### 3.获取考研文章列表接口
+### 3.1.获取考研文章列表接口
 >http://127.0.0.1/php4Homework/information/getInformation.php
 >>请求格式
 ```json
@@ -109,7 +109,7 @@
 }
 ```
 
-### 4.获取文章具体内容接口
+### 3.2.获取文章具体内容接口
 >http://127.0.0.1/php4Homework/information/getInformation.php
 >>请求格式
 ```json
@@ -141,7 +141,7 @@
 }
 ```
 
-### 5.获取考研院校列表的接口
+### 3.3.获取考研院校列表的接口
 >http://127.0.0.1/php4Homework/information/getInformation.php
 >>请求格式
 ```json
@@ -187,7 +187,7 @@
 }
 ```
 
-### 6.获取院校报录比信息的接口
+### 3.4.获取院校报录比信息的接口
 >http://127.0.0.1/php4Homework/information/getInformation.php
 >>请求格式
 ```json
@@ -224,7 +224,45 @@
 }
 ```
 
-### 7.签到接口
+### 3.5.获取歌曲信息的接口
+>http://127.0.0.1/php4Homework/information/getInformation.php
+>>请求格式
+```json
+{
+	"type":5,
+	"content":{
+		"token":"f05795d95e20b009e85c69b1dbff7772f4505448"
+	}
+}
+```
+>>返回格式
+```json
+{
+    "ErrorCode": 0,
+    "ErrorMessage": "NONE",
+    "content": {
+        "info": "success",
+        "data": [
+            {
+                "id": "21",
+                "name": "白色风车",
+                "author": "周杰伦",
+                "picture": "http://120.77.212.41/MYHTML/music/images/白色风车.jpg",
+                "src": "http://120.77.212.41/MYHTML/music/周杰伦 - 白色风车.mp3"
+            },
+            {
+                "id": "22",
+                "name": "害怕",
+                "author": "林俊杰",
+                "picture": "http://120.77.212.41/MYHTML/music/images/害怕.jpg",
+                "src": "http://120.77.212.41/MYHTML/music/林俊杰 - 害怕.mp3"
+            }
+        ]
+    }
+}
+```
+
+### 4.1.签到接口
 >http://127.0.0.1/php4Homework/punchsign/index.php
 >>请求格式
 ```json
@@ -246,7 +284,7 @@
     }
 }
 ```
-### 8.获取签到次数接口
+### 4.2.获取签到次数接口
 >http://127.0.0.1/php4Homework/punchsign/index.php
 >>请求格式
 ```json
@@ -268,7 +306,7 @@
     }
 }
 ```
-### 9.修改头像地址
+### 5.0.修改头像地址
 >http://127.0.0.1/php4Homework/modify/avatar/index.php
 >>请求格式
 ```json
@@ -292,7 +330,7 @@
 }
 ```
 
-### 10.添加帖子
+### 6.1.添加帖子
 >http://127.0.0.1/php4Homework/forum/getInformation.php
 >>请求格式
 ```json
@@ -317,7 +355,7 @@
 }
 ```
 
-### 11.添加回复
+### 6.2.添加回复
 >http://127.0.0.1/php4Homework/forum/getInformation.php
 >>请求格式
 ```json
@@ -342,7 +380,7 @@
 }
 ```
 
-### 12.获取帖子
+### 6.3.获取帖子
 >http://127.0.0.1/php4Homework/forum/getInformation.php
 >>请求格式
 ```json
@@ -384,7 +422,7 @@
 }
 ```
 
-### 13.获取回复
+### 6.4.获取回复
 >http://127.0.0.1/php4Homework/forum/getInformation.php
 >>请求格式
 ```json

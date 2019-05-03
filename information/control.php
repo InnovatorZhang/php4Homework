@@ -81,3 +81,17 @@ function getSchoolInformation($pdo,$data){
         other_encode('没有信息啦！');
     }
 }
+
+/**
+ * @param $pdo
+ * 获取歌曲列表
+ */
+function getMusicList($pdo){
+    $sql = $pdo->prepare("select * from music");
+    $sql->execute();
+    if($row = $sql->fetchAll(PDO::FETCH_NAMED)){
+        success_encode($row);
+    }else{
+        other_encode('没有信息啦！');
+    }
+}
